@@ -57,3 +57,10 @@ class Test_Issues(unittest.TestCase):
         bogus_ac = "NM_000000.99"
         with self.assertRaises(HGVSDataNotAvailableError):
             self.hdp.seqfetcher.fetch_seq(bogus_ac)
+
+    def test_460_padding_bug(self):
+        # ensure that no exception is raised for this variant
+        hgvs_c = "NM_002537.3:c.250del"
+        var_c = self.hp.parse_hgvs_variant(hgvs_c)
+        var_p = self.am37.c_to_p(var_c)
+        
