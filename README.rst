@@ -92,7 +92,7 @@ Parsing and Formating
 `hgvs` parses HGVS variants (as strings) into an object model, and can format
 object models back into HGVS strings.
 
-::
+.. code-block:: python
 
   >>> import hgvs.parser
 
