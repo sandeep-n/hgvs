@@ -1,5 +1,6 @@
 *hgvs* - manipulate biological sequence variants according to Human Genome Variation Society recommendations
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Minor edit
 
 **Important:** biocommons packages (including hgvs) will begin phasing
 out support for Python 2.7 on Jan 1, 2019.  `More
